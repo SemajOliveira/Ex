@@ -1,0 +1,10 @@
+a = input('Digite algo: ')
+
+print(f'A variável é do tipo {type(a)}')
+print(f'Tem apenas texto com letras maiúscula? {a.isupper()}')
+print(f'Tem apenas texto com letras minúsculas? {a.islower()}')
+print(f'Tem caracteres alfanuméricos? {a.isalnum()}')
+print(f'Tem apenas espaços? {a.isspace()}')
+print(f'Tem apenas números? {a.isnumeric()}')
+print(f'Tem apenas caracteres alfabéticos? {a.isalpha()}')
+print(f'O início da entrada é maiúsuculo? {a.istitle()}')
