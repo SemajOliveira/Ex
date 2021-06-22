@@ -1,0 +1,5 @@
+nome = input('Digite seu nome completo: ').strip()
+print(f'Nome completo: \033[35m{nome}\033[m')
+separa = nome.split()
+print(f'Primeiro nome: \033[34m{separa[0]}\033[m')
+print(f'ùltimo nome: \033[34m{separa[-1]}\033[m')
