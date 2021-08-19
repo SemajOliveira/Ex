@@ -1,5 +1,3 @@
-"""
-"""
 casa = float(input('Valor da casa? '))
 salario = float(input('Qual seu salário? '))
 anos = float(input('Em quantos anos você vai pagar? '))
